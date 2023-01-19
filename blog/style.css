@@ -1,0 +1,437 @@
+body{
+  background-color: #b3f6f6;
+  margin-top: 10em;
+}
+
+.div-nav{
+  display: grid;
+  grid-template-columns: repeat(1fr 1fr 1fr);
+  grid-gap: 10px;
+  justify-items: center;
+  justify-content: center;
+  margin-top: 10px;
+  margin: 10px;
+  padding-top: 5px;
+}
+.navbar {
+  background-color:#131312;
+  height: 50px;
+  width:80vw;
+  font-family: Lora, Arial, Times New Roman, serif;
+  font-size: 20px;
+  font-weight: bold;
+  justify-items: center;
+  text-align: center;
+  padding: 0px;
+  text-decoration: no;
+ }
+.link {
+  text-align: center;
+  padding: 45px;
+  margin: 5px;
+  text-decoration: none; 
+}
+.link:hover {
+    font-size: 20px;
+    font-style:oblique;
+   font-weight: bold;
+}
+a:link {
+  text-decoration: none;
+  color: #8181ac; 
+}
+
+
+@media only-screen and (max-width: 800px){
+  .navbar {
+            font-size: 0.7em;
+            padding:0px;
+            text-align: center;
+            align-items: center;
+  }  
+}
+.h1-index {
+  font-size: 5em;
+  font-family: Times New Roman, serif;
+  margin: 10px;
+  padding-top: 5px; 
+  padding-left: 3em;
+}
+.h2-index {
+  font-size: 3em;
+  font-family: Lora, Arial, Times New Roman, serif;
+  margin: 10px;
+  padding-top: 5px; 
+  padding-left: 3em;
+}
+
+/* Personal-info page */
+.h1-personal {
+  font-size: 3em;
+  font-family: Times New Roman, serif;
+  text-align: center;
+  margin: 10px;
+  padding-top: 5px; 
+ }
+.p-personal {
+  font-size: 2em;
+  font-family: Times New Roman, serif;
+  line-height: 50px;
+  
+  text-align: justify;
+  margin: 20px;
+  padding-top: 5px; 
+}
+
+
+/* HTML-CSS page */
+.img-computer {
+  position: fixed; 
+  top: 0; 
+  left: 0; 
+  background: no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.div-nav2 {
+  position:absolute;
+    margin-top: 10px;
+    align-items: center;
+    align-content: center;
+    justify-items: center;
+    justify-content: center;
+    transform: translate(5%, -50%); 
+    margin-top: 10%;
+    align-items: center;
+    align-content: center;
+    align-self: center;
+    justify-items: center;
+    justify-content: center;
+    transform: translate(5%, -50%);
+    text-align: center;
+  padding: 45px;
+  margin: 5px;
+  text-decoration: none;
+  } 
+  .navbar2 {
+    position: absolute;
+  top: 90%;
+  left: 30%;
+  bottom: 30%;
+  transform: translate(-20%, -40%);
+    /* position:absolute;
+    margin-top: 10px;
+    align-items: center;
+    align-content: center;
+    justify-items: center;
+    justify-content: center;
+    transform: translate(5%, -50%); */
+    background-color:#131312;
+    height: 50px;
+    width:80vw;
+    font-family: Lora, Arial, Times New Roman, serif;
+    font-size: 20px;
+    font-weight: bold;
+    justify-items: center;
+    text-align: center;
+    padding: 0px;
+    text-decoration: no;
+   }
+  
+.div-nav2 {
+  position: absolute;
+  top: 30%;
+  right: 50%;
+  bottom: 30%;
+  transform: translate(20%, -40%);
+  text-align: center;
+  padding: 45px;
+  margin: 5px;
+  text-decoration: none; 
+}
+
+  .h1-html{
+    position:absolute;
+    top: 35%;
+    left: 40%;
+    transform: translate(-55%, -50%);
+    margin: 0px 0px 0px 80px;
+    color:#10011d;
+    font-weight: bolder;
+    text-align: center;
+  }
+  h2 {
+    font-family: Righteous, Lora, Arial, Times New Roman, serif;
+    font-size: 28px;
+    padding-right: 20px;
+  }
+  .p-html {
+    position: absolute;
+    top: 55%;
+    left: 20%;
+    bottom: 30%;
+    transform: translate(-20%, -50%);
+    margin-bottom: 30px;
+    padding-bottom: 15%;
+    text-indent: 20px;
+    font-family: "Nunito", sans-serif;
+    font-size: 22px;
+    text-align: justify;
+    color:#10011d;
+    line-height: 50px;
+  }
+  .alllist {
+    position: absolute;
+    top: 55%;
+    left: 20%;
+    bottom: 30%;
+    transform: translate(-20%, -50%);
+    display: flex;
+    flex-direction: row;
+    float: right;
+    grid-gap: 0px;
+    margin: 0.5em 3em;
+    padding: 0px;
+  }
+  #list {
+ font-family: Righteous, Lora, Arial, Times New Roman, serif;
+  font-size: 28px;
+  margin-left: 20px;
+  padding: 5px;
+  display: grid;
+  grid-template-columns: repeat(1fr 1fr 1fr);
+  grid-gap: 10px;
+  justify-items: center;
+  justify-content: center;
+  margin-top: 10px;
+  margin: 10px;
+  padding-top: 5px;
+  }
+.p-element {
+    position: absolute;
+    top: 90%;
+    left: 20%;
+    bottom: 30%;
+    transform: translate(-20%, -50%);
+    margin-bottom: 30px;
+    padding-bottom: 15%;
+    text-indent: 20px;
+    font-family: "Nunito", sans-serif;
+    line-height: 29px;
+    font-size: 22px;
+    text-align: justify;
+}
+.div-static {
+    position: absolute;
+    top: 90%;
+    left: 30%;
+    bottom: 30%;
+    transform: translate(-20%, -40%);
+    display: flex;
+    flex-direction: row;
+    font-family: "Nunito", sans-serif;
+    line-height: 29px;
+    font-size: 22px;
+    text-align: justify;
+    justify-items: center;
+    margin: 5px;
+    padding: 0px; 
+  }
+.img-static {
+  height: 390px;
+  width: 390px;
+      margin-top: 0px;
+      margin-left: 2em;
+      border-radius: 25px;
+      }
+
+ .div-relative {
+    position: absolute;
+      top: 120%;
+      right: 50%;
+      bottom: 30%;
+      transform: translate(-20%, -50%);
+      display: flex;
+      flex-direction:row;
+      font-family: "Nunito", sans-serif;
+      line-height: 29px;
+      font-size: 22px;
+      text-align: justify;
+      justify-items: right;
+      margin: 5px;
+      padding: 0px; 
+    }
+    .p-relative {
+      position: absolute;
+      top: 160%;
+      right: 50%;
+      bottom: 30%;
+      transform: translate(205%, 50%);
+      margin-bottom: 30px;
+      margin-right: 5px;
+      padding-right: 5px;
+      text-indent: 20px;
+      font-family: "Nunito", sans-serif;
+      line-height: 35px;
+      font-size: 22px;
+      text-align: justify;
+    }
+  .img-relative {
+    height: 380px;
+    width: 330px;
+        margin-top: 0px;
+        margin-right: 2em;
+        border-radius: 25px;
+        }
+
+    .div-absolute {
+      position: absolute;
+      top: 182%;
+      left: 20%;
+      bottom: 30%;
+      transform: translate(-20%, -50%);
+      display: flex;
+      flex-direction: row;
+      font-family: "Nunito", sans-serif;
+      line-height: 29px;
+      font-size: 22px;
+      text-align: justify;
+      justify-items: center;
+      margin: 5px;
+      padding: 0px; 
+    }
+    .p-absolute {
+      position: absolute;
+      top: 160%;
+      right: 50%;
+      bottom: 30%;
+      transform: translate(205%, 50%);
+      margin-bottom: 30px;
+      margin-left: -3em;
+      padding-right: 5px;
+      text-indent: 20px;
+      font-family: "Nunito", sans-serif;
+      line-height: 35px;
+      font-size: 22px;
+      text-align: justify;
+    }
+  .img-absolute {
+    height: 370px;
+    width: 350px;
+        margin-top: 0px;
+        margin-left: 2em;
+        border-radius: 25px;
+        }
+
+        .div-fixed {
+          position: absolute;
+          top: 238%;
+          left: 20%;
+          bottom: 30%;
+          transform: translate(-20%, -50%);
+          display: flex;
+          flex-direction: row;
+          font-family: "Nunito", sans-serif;
+          line-height: 29px;
+          font-size: 22px;
+          text-align: justify;
+          justify-items: center;
+          margin: 5px;
+          padding: 0px; 
+        }
+        .p-fixed {
+          position: absolute;
+          top: 180%;
+          left:35%;
+          bottom: 30%;
+          transform: translate(-55%, 35%);
+          margin-bottom: 30px;
+          padding-bottom: 15%;
+          text-indent: 20px;
+          font-family: "Nunito", sans-serif;
+          line-height: 29px;
+          font-size: 22px;
+          text-align: justify;
+      }
+      .img-fixed {
+        height: 330px;
+        width: 330px;
+            margin-top: 0px;
+            margin-left: 28em;
+            border-radius: 25px;
+            }
+
+            .div-sticky {
+              position: absolute;
+                top: 300%;
+                right: 50%;
+                bottom: 30%;
+                transform: translate(20%, -40%);
+                display: flex;
+                flex-direction:row;
+                font-family: "Nunito", sans-serif;
+                line-height: 29px;
+                font-size: 22px;
+                text-align: justify;
+                justify-items: right;
+                margin: 5px;
+                padding: 0px; 
+              }
+              .p-sticky {
+                position: absolute;
+                top: 160%;
+                right: 50%;
+                bottom: 30%;
+                transform: translate(205%, -50%);
+                margin-bottom: 30px;
+                margin: 5px;
+                padding-right: 5px;
+                text-indent: 20px;
+                font-family: "Nunito", sans-serif;
+                line-height: 35px;
+                font-size: 22px;
+                text-align: justify;
+              }
+            .img-sticky {
+              height: 290px;
+              width: 330px;
+                  margin-top: 0px;
+                  margin-right: 2em;
+                  margin-bottom: 15px;
+                  padding-bottom: 15px;
+                  border-radius: 25px;
+                  }
+                  .div-youtub {
+                    position: absolute;
+                      top: 315%;
+                      right:50%;
+                      bottom: 50%;
+                      transform: translate(20%, -10%);
+                      display: flex;
+                      flex-direction:row;
+                      font-family: "Nunito", sans-serif;
+                      line-height: 29px;
+                      font-size: 22px;
+                      text-align: justify;
+                      justify-items: right;
+                      margin-bottom: 15px;
+                      padding-bottom: 10px; 
+                    }
+                    .p-know {
+                      position: absolute;
+                      top: 150%;
+                      right: 60%;
+                      bottom: 50%;
+                      transform: translate(205%, -50%);
+                      margin-bottom: 30px;
+                      margin-right: 5px;
+                      padding-right: 5px;
+                      text-indent: 20px;
+                      font-family: "Nunito", sans-serif;
+                      line-height: 35px;
+                      font-size: 22px;
+                      text-align: justify;
+                    }
+          

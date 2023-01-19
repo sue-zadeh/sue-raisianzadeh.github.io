@@ -6,10 +6,10 @@ body{
 }
 
 /* @media only-screen and (max-width: 150px){
-  .Banner {
+  .div-home1 {
 padding: 0;
   }  
-  .web {
+  .div-home2 {
     font-size: 0.8vm;
   
    } */
@@ -40,8 +40,8 @@ padding: 0;
     padding: 0px;
   }
 .image3  {
-  height: 30vh;
-  width: 15vw;
+  height: 390px;
+  width: 390;
   margin-top: 1em ;
   border: 2px solid #823232;
   border-radius: 10px 10px;
@@ -97,8 +97,8 @@ padding: 0;
       padding: 0px;
     }
     .image5{
-      height: 40vh;
-      width: 35vw;
+      height: 390px;
+      width: 390;
       margin: 0em 2em 1em 5em;
       border: 2px solid #823232;
       border-radius: 10px 10px;
@@ -123,9 +123,8 @@ padding: 0;
         padding: 5px;
       }
       .image7{
-        height: 30vh;
-        width: 15vw;
-        
+        height: 390px;
+        width: 390;
         border: 2px solid #823232;
         border-radius: 10px 14px;
         }
@@ -137,9 +136,8 @@ padding: 0;
           padding: 0px;
         }
       .image4{
-        height: 30vh;
-        width: 25vw;
-        
+        height: 320px;
+        width: 340;
         margin-top: 2em;
         border: 10px solid #823232;
         border-radius: 25px 0px; 
@@ -160,15 +158,15 @@ padding: 0;
   padding: 0px;
  }
   .image8{
-    height: 30vh;
-    width: 25vw;
+    height: 250px;
+    width: 360;
     margin-top: 1em;
     border: 5px solid #000000;
     border-radius: 0px 790px; 
     }
     .image9{
-    height: 30vh;
-     width: 25vw;
+    height: 275px;
+    width: 380;
     margin-top: 1em;
     border: 5px solid #000000;
     border-radius: 790px 0px;
@@ -182,8 +180,8 @@ padding: 0;
         padding: 0px;        
       }
       .image2{
-        height: 30vh;
-        width: 15vw;
+        height: 250px;
+        width: 380;
         justify-items: center;
         margin-top: 1em ;
         border: 7px solid #823232;
@@ -201,8 +199,8 @@ padding: 0;
       }
     
         .image6{
-          height: 25vh;
-          width: 20vw;
+          height: 250px;
+          width: 390;
           margin-top: 2em 2em 2em 0em;
           border: 5px solid #823232;
           border-radius: 25px 25px 170px 170px ;
@@ -210,8 +208,8 @@ padding: 0;
           /* about-cats */
 
           .image1{
-            height: 45vh;
-            width: 35vw; 
+            height: 330px;
+            width: 380; 
             margin-top: 2em;
             border: 3px solid #823232;
             border-radius: 45px 35px; 
