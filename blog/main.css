@@ -1,8 +1,8 @@
 body{
-  
   background-color: rgb(239, 239, 196);
   width: auto;
-  margin-top: 2em;
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 
 /* @media only-screen and (max-width: 150px){
@@ -108,23 +108,25 @@ padding: 0;
         flex-direction: row;
         float: right;
         grid-gap: 0px;
-        margin: 0.5em 3em;
+        margin: 0px 30px;
         padding: 0px;
       }
       h2 {
         font-family: Righteous, Lora, Arial, Times New Roman, serif;
         font-size: 28px;
         padding-right: 20px;
+        margin-top: 0px;
+
       }
       #list {
         font-family: Righteous, Lora, Arial, Times New Roman, serif;
         font-size: 28px;
-        margin-left: 20px;
-        padding: 5px;
+        margin-left: 18px;
+        padding: 3px;
       }
       .image7{
-        height: 390px;
-        width: 390;
+        height: 260px;
+        width: 260;
         border: 2px solid #823232;
         border-radius: 10px 14px;
         }
@@ -136,10 +138,10 @@ padding: 0;
           padding: 0px;
         }
       .image4{
-        height: 320px;
-        width: 340;
-        margin-top: 2em;
-        border: 10px solid #823232;
+        height: 240px;
+        width: 245px;
+        margin-top: 0px;
+        border: 8px solid #823232;
         border-radius: 25px 0px; 
         }
         
