@@ -1,8 +1,8 @@
 body{
   background-color: #47649098;
   margin-top: 10em;
-  margin-left: 35px;
-  margin-right: 35px;
+  margin-left: 3em;
+  margin-right: 3em;
   margin-bottom: 4em;
 }
 
@@ -10,20 +10,20 @@ body{
   border: 1px, red;
   display: grid;
   grid-template-columns: repeat(1fr 1fr 1fr 1fr);
-  grid-gap: 10px;
+  grid-gap: 5px;
   justify-items: center;
   justify-content: center;
   align-self: center;
   margin-top: 10px;
-  margin: 10px;
+  margin: 5px;
   padding-top: 5px;
 }
 .navbar {
   background-color:#131312;
-  height: 50px;
-  width:95vw;
+  height: 2em;
+  width: 63em;
   font-family: Lora, Arial, Times New Roman, serif;
-  font-size: 20px;
+  font-size: 1.5em;
   font-weight: bold;
   justify-items: center;
   text-align: center;
@@ -33,12 +33,12 @@ body{
 .link {
   text-align: center;
   align-items: center;
-  padding: 45px;
-  margin: 5px;
+  padding: 40px;
+  margin: 0px;
   text-decoration: none; 
 }
 .link:hover {
-    font-size: 20px;
+    
     font-style:oblique;
    font-weight: bold;
 }
@@ -50,7 +50,7 @@ a:link {
 
 @media only-screen and (max-width: 600px){
   .navbar {
-            font-size: 0.5em;
+            font-size: 0.2em;
             padding:0px;
             text-align: center;
             align-items: center;
@@ -118,7 +118,7 @@ a:link {
 } */
 
   .h1-html{
-    font-size: 25px;
+    font-size: 1.25em;
   font-family: Arial, Times New Roman, serif;
   color: black;
   text-align: center;
@@ -404,7 +404,7 @@ a:link {
              justify-items: right;
              margin-bottom: 15px;
              padding-bottom: 10px;
-             box-shadow: 32px 3px 5px 9px rgb(160, 151, 151);
+             box-shadow: 32px 8px 20px 9px rgb(160, 151, 151);
              border-radius: 25px;
                     }
       .p-know {
@@ -418,40 +418,54 @@ a:link {
             text-align: justify;
                     } 
 /* Learning-plan page */
-.h1-plan {
+.h1-plan-id {
   text-align: center;
   font-family: Righteous, Lora, Arial, Times New Roman, serif;
+  font-style:strong;
   font-size: 25px;
 }
 .div-learning {
   display: flex;
-  flex-direction:row;
+  flex-direction:column;
   font-family: Righteous, Lora, Arial, Times New Roman, serif;
   line-height: 29px;
   font-size: 22px;
   text-align: justify;
   justify-items: right;
-  margin: 5px;
-  padding: 0px;  
+  margin: 2px;
+  padding: 0px; 
+  box-shadow: 8px 12px 30px 20px rgb(160, 151, 151);
+             border-radius: 25px; 
 }
 .p-questions {
-  margin-bottom: 30px;
-  margin-right: 5px;
-  padding-right: 5px;
+  margin: 0.15em 25px 25px 25px;
   text-indent: 20px;
   font-family: Righteous, Lora, Arial, Times New Roman, serif;
-  line-height: 40px;
-  font-size: 22px;
+  line-height: 32px;
+  font-size: 20px;
   text-align: justify;
 }
+.answer {
+  margin: 10px 20px 20px 30px;
+  padding: 2px;
+  text-indent: 20px;
+  color: #11113b;
+  font-family: Righteous, Lora, Arial, Times New Roman, serif;
+  line-height: 30px;
+  font-style: italic;
+  font-size: 18px;
+  text-align: justify;
+}
+
 /* identity-values page */
 .h1-id {
   
   padding: 5px;
   text-indent: 20px;
-  font-family: Righteous, Lora, Arial, Times New Roman, serif;
+  font-family: Arial, Times New Roman, serif;
   line-height: 40px;
-  font-size: 35px;
+  font-size: 40px;
   text-align: center;
   text-align: justify; 
 }
+
