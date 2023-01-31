@@ -1,8 +1,8 @@
 body{
   background-color: #74dada98;
   margin-top: 10em;
-  margin-left:2em;
-  margin-right: 2em;
+  margin-left:1em;
+  margin-right: 1em;
   margin-bottom: 2em;
 }
 
@@ -14,6 +14,9 @@ body{
     height: auto;
     width: 100vw;
     }
+  } 
+
+    @media (max-width: 43rem) {
     .link{
       color: black;
       font-size: 0.75;
@@ -23,15 +26,11 @@ body{
   /* Tablet, mid-small view */
   @media (min-width: 43rem) {
     .div-nav {
-    background-color: yellow;
+    background-color: rgb(2, 66, 12);
     color: black;
     height: auto;
     width: 100vw;
-    font-size: 0.85em;
-    }
-    .link{
-      color: black;
-      font-size: 0.75;
+    
     }
   }
 
@@ -59,7 +58,7 @@ body{
 .div-nav{
   display: grid;
   /* grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr; */
-  height: 3em;
+  height: 3.5em;
   width: 98%;
   justify-items: center;
   justify-content: center;
@@ -73,7 +72,7 @@ body{
  .navbar {
   /* background-color:#131312; */
   font-family: Lora, Arial, Times New Roman, serif;
-  font-size: 1.15em;
+  font-size: 1.05em;
   font-weight: bold;
   justify-items: center;
   align-items: center;
@@ -543,3 +542,7 @@ a:link {
   text-align: justify; 
 }
 
+.img-ht-css-js, .img-if, .img-loop {
+  height: 32rem;
+  weight: 38rem;
+}
