@@ -57,16 +57,9 @@ body{
 
 .div-nav{
   display: grid;
-<<<<<<< HEAD
   /* grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr; */
   height: 3.5em;
   width: 98%;
-=======
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-  height: 3em;
-  width: 98%;
-/*   background-color: black; */
->>>>>>> ac7b7129bcbb66fc2293b2c7a5eba3d4301c8e7c
   justify-items: center;
   justify-content: center;
   align-content: center;
@@ -549,7 +542,23 @@ a:link {
   text-align: justify; 
 }
 
-.img-ht-css-js, .img-if, .img-loop {
-  height: 32rem;
-  weight: 38rem;
+/* Dom page */
+
+.img-ht-css-js{
+  height: 28rem;
+  width: 35rem;
+  justify-self: center;
+  align-items: center;
+  justify-self: center;
+  
+}
+
+
+
+.img-if, .img-loop {
+  height: 28rem;
+  width: 35rem;
+  justify-self: center;
+  align-items: center;
+  justify-self: center;
 }
