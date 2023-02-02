@@ -53,11 +53,23 @@ body{
     width: 100vw;
   }
   }
-
+.link {
+  margin-right: 10px;
+  font-size: 1.60rem;
+  padding: 8px;
+}
+.link:hover {
+  background-color: #6fbb72;
+}
 
   .div-nav {
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    justify-self: center;
+    justify-content: center;
+    text-align: center;
     align-items: center;
     background-color: #333;
     color: #fff;
@@ -68,6 +80,11 @@ body{
     color: #fff;
     text-decoration: none;
     margin-right: 10px;
+    align-items: center;
+    align-content: center;
+    justify-self: center;
+    justify-content: center;
+    text-align: center;
     font-size: 1.60rem;
     text-align: center;
   }
@@ -80,8 +97,13 @@ body{
   
   .div-nav .dropdown .dropbtn {
     background-color: #333;
-    color: rgb(246, 207, 207);
+    color: rgb(246, 246, 246);
     font-size: 1.60rem;
+    align-items: center;
+    align-content: center;
+    justify-self: center;
+    justify-content: center;
+    text-align: center;
     padding: 10px;
     border: none;
     cursor: pointer;
@@ -91,6 +113,11 @@ body{
     display: none;
     position: absolute;
     font-size: 1.60rem;
+    align-items: center;
+    align-content: center;
+    justify-self: center;
+    justify-content: center;
+    text-align: center;
     background-color: #f9f9f9;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
@@ -101,16 +128,22 @@ body{
     color: black;
     padding: 12px 16px;
     text-decoration: none;
+    align-items: center;
+    align-content: center;
+    justify-self: center;
+    justify-content: center;
+    text-align: center;
     font-size: 1.60rem;
     display: block;
   }
   
   .div-nav .dropdown:hover .div-dropdown-content {
     display: block;
+    background-color: #c0ecc2;
   }
   
   .div-nav .dropdown:hover .dropbtn {
-    background-color: #3e8e41;
+    background-color: #6fbb72;
   }
   
 .h1-index {
