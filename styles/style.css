@@ -166,6 +166,9 @@ body{
   padding-left: 3em;
   padding-right: 3em;
 }
+h3 {
+  text-align: center;
+}
 
 /* Personal-info page */
 .div-personal {
@@ -529,7 +532,7 @@ body{
 .h1-plan-id, .h1-dom {
   text-align: center;
   font-family: Righteous, Lora, Arial, Times New Roman, serif;
-  font-weight: bold;
+  font-weight:bolder;
   font-size: 25px;
 }
 .div-learning {
