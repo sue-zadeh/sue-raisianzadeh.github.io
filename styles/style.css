@@ -7,23 +7,19 @@ body{
 }
 
 /* * Mobile, smallest view */
-
   @media (max-width: 43rem) {
     .div-nav {
     background-color: pink;
     height: auto;
     width: 100vw;
     }
-  } 
-
-    @media (max-width: 43rem) {
-    .link{
+     .link{
       color: black;
       font-size: 0.75;
     }
-  }
+  } 
 
-  /* Tablet, mid-small view */
+    /* Tablet, mid-small view */
   @media (min-width: 43rem) {
     .div-nav {
     background-color: rgb(2, 66, 12);
